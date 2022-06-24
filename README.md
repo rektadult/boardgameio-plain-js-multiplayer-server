@@ -19,7 +19,7 @@ Client:
 npm start
 ```
 
-1. Visit http://localhost:1234
+1. Open http://localhost:1234
     - Click "Player 0"
 
 2. In a new browser tab, open http://localhost:1234
