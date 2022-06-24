@@ -1,0 +1,25 @@
+{
+  "name": "bgio-plain-js-multiplayer-server",
+  "version": "1.0.0",
+  "description": "Tutorial code for following along with the Plain JS multiplayer guide for boardgame.io.",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "serve": "node -r esm src/server.js"
+  },
+  "dependencies": {
+    "boardgame.io": "0.45.0",
+    "esm": "3.2.25",
+    "parcel": "^2.0.0-nightly.1130"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "parcel-bundler": "^1.6.1",
+    "postcss": "^8.1.0",
+    "tailwindcss": "^3.1.4"
+  },
+  "browserslist": "> 0.4% and not ie 11",
+  "keywords": [
+    "boardgame.io"
+  ]
+}
